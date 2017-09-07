@@ -1,0 +1,107 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="jumbotron">
+    <h1>iasset.com Technical Test</h1>
+    <p class="lead">Using dummy country and city data. It only supports Australia, United States, United Kingdom, China, and India</p>
+</div>
+
+<div class="row" >
+    <div class="weather-container">
+        <h2>Weather</h2>
+        <input id="country" name="country" type="text" placeholder="Enter country name" />
+        <button id="btn_findCity">Get Cities</button><br />
+        <select id="city" name="city" class="city_dropdown">
+            <option value="">---- Select City ----</option>
+        </select>
+        <div id="message" class="message"></div>
+        <br />
+        <div class="weather-info" >
+            <div class="left-label">Location</div><div class="right-data" id="location-name"></div>
+            <div class="left-label">Time</div><div class="right-data" id="time"></div>
+            <div class="left-label">Wind</div><div class="right-data" id="wind"></div>
+            <div class="left-label">Visibility</div><div class="right-data" id="visibility"></div>
+            <div class="left-label">Sky Condition</div><div class="right-data" id="description"></div>
+            <div class="left-label">Temperature</div><div class="right-data" id="temp"></div>
+            <div class="left-label">Dew Point</div><div class="right-data" id="dewpoint">N/A</div>
+            <div class="left-label">Relative Humidity</div><div class="right-data" id="humidity"></div>
+            <div class="left-label">Pressure</div><div class="right-data" id="pressure"></div>
+        </div>
+      
+       
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#btn_findCity").click(function () {
+                var country = $("#country").val();
+                if (country == '') {
+                    $("#message").text("Please enter a country.").addClass("error");
+                    return;
+                }
+               
+                $.ajax({
+                    url: "@Url.Action("GetCountryCity","Home")",
+                    method: "POST",
+                    data: { country: country },
+                }).done(function (response) {
+                    $("#city").empty();
+                    $('#city').append(new Option("---- Select City ----", ""));
+
+                    if (response.success) {
+                        $.each(response.cities, function (index, item) {
+
+                            var option = new Option(item.Name, item.Name + "_" + item.CountryCode);
+                            $('#city').append($(option));
+                        });
+                    } else {
+                        $("#message").text(response.message).addClass("error");
+                    }
+                });
+            });
+
+            $("#city").change(function () {
+
+                var city = $("#city option:selected").text();
+                var cityVal = $("#city option:selected").val();            
+                var countryCode = cityVal.split('_')[1];
+
+                $.ajax({
+                    url: "@Url.Action("GetWeather","Home")",
+                    data: { countryCode: countryCode, city: city },
+                    method: "POST",
+                }).done(function (response) {
+                    console.log(response);
+                    if (response.success) {
+                        var time = new Date(1000 * response.weather.dt).toString();
+
+                        $("#location-name").text(response.weather.name);
+                        $("#time").text(time);
+                        $("#wind").text("deg:" + response.weather.wind.deg + "  speed:" + response.weather.wind.speed);
+                        $("#visibility").text(response.weather.visibility);
+                        $("#description").text(response.weather.weather[0].description);
+                        $("#temp").text(response.weather.main.temp);
+                        $("#humidity").text(response.weather.main.humidity);
+                        $("#pressure").text(response.weather.main.pressure);
+
+                        $(".weather-info").show();
+                    } else {
+                        $("#message").text(response.message).addClass("error");
+                    }
+                })
+                    .fail(function (xhr, textStatus, errorThrown) {
+                        $("#message").text(xhr.responseText).addClass("error");
+
+                    });;
+
+               
+            });
+
+           
+        })
+
+    </script>
+
+</div>
+

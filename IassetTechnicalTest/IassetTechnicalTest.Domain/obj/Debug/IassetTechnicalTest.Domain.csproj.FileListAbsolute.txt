@@ -3,3 +3,7 @@ D:\Projects\IassetTechnicalTest\IassetTechnicalTest.Domain\bin\Debug\IassetTechn
 D:\Projects\IassetTechnicalTest\IassetTechnicalTest.Domain\obj\Debug\IassetTechnicalTest.Domain.csprojResolveAssemblyReference.cache
 D:\Projects\IassetTechnicalTest\IassetTechnicalTest.Domain\obj\Debug\IassetTechnicalTest.Domain.dll
 D:\Projects\IassetTechnicalTest\IassetTechnicalTest.Domain\obj\Debug\IassetTechnicalTest.Domain.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.Domain\bin\Debug\IassetTechnicalTest.Domain.dll
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.Domain\bin\Debug\IassetTechnicalTest.Domain.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.Domain\obj\Debug\IassetTechnicalTest.Domain.dll
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.Domain\obj\Debug\IassetTechnicalTest.Domain.pdb

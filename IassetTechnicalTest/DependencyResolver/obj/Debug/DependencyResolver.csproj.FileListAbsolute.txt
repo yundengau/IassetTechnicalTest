@@ -54,3 +54,4 @@ E:\IassetTechnicalTest\IassetTechnicalTest\DependencyResolver\bin\Debug\IassetTe
 E:\IassetTechnicalTest\IassetTechnicalTest\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
 E:\IassetTechnicalTest\IassetTechnicalTest\DependencyResolver\obj\Debug\DependencyResolver.dll
 E:\IassetTechnicalTest\IassetTechnicalTest\DependencyResolver\obj\Debug\DependencyResolver.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache

@@ -1,0 +1,73 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Weather report module style */
+.weather-container {
+    width: 800px;
+    margin: auto;
+}
+
+.left-label {
+    color: dimgray;
+    font-weight: bold;
+    width: 20%;
+    display: inline-block;
+}
+
+.right-data {
+    display: inline-block;
+    width: 75%;
+}
+
+.weather-info {
+    display: none;
+    width: 100%
+}
+
+input#country, select#city {
+    width: 200px;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+select#city {
+    margin-top: 10px;
+}
+
+button#btn_findCity {
+    width: 100px;
+    padding: 3px 10px;
+    margin-left: 5px;
+}
+
+.message {
+    padding: 0 5px;
+    margin-top: 10px;
+}
+
+    .message.error {
+        color: red;
+    }

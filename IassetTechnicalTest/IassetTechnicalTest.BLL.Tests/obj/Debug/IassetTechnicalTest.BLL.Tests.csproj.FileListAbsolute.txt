@@ -17,3 +17,4 @@ D:\Projects\IassetTechnicalTest\IassetTechnicalTest.BLL.Tests\bin\Debug\IassetTe
 D:\Projects\IassetTechnicalTest\IassetTechnicalTest.BLL.Tests\obj\Debug\IassetTechnicalTest.BLL.Tests.csprojResolveAssemblyReference.cache
 D:\Projects\IassetTechnicalTest\IassetTechnicalTest.BLL.Tests\obj\Debug\IassetTechnicalTest.BLL.Tests.dll
 D:\Projects\IassetTechnicalTest\IassetTechnicalTest.BLL.Tests\obj\Debug\IassetTechnicalTest.BLL.Tests.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL.Tests\obj\Debug\IassetTechnicalTest.BLL.Tests.csprojResolveAssemblyReference.cache

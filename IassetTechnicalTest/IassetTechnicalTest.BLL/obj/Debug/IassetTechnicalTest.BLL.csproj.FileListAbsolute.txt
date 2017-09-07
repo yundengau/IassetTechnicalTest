@@ -18,3 +18,13 @@ E:\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\bin\Debug\Ias
 E:\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\obj\Debug\IassetTechnicalTest.BLL.csprojResolveAssemblyReference.cache
 E:\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\obj\Debug\IassetTechnicalTest.BLL.dll
 E:\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\obj\Debug\IassetTechnicalTest.BLL.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\bin\Debug\IassetTechnicalTest.BLL.dll.config
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\bin\Debug\IassetTechnicalTest.BLL.dll
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\bin\Debug\IassetTechnicalTest.BLL.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\bin\Debug\IassetTechnicalTest.Domain.dll
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\bin\Debug\IassetTechnicalTest.IBLL.dll
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\bin\Debug\IassetTechnicalTest.Domain.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\bin\Debug\IassetTechnicalTest.IBLL.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\obj\Debug\IassetTechnicalTest.BLL.csprojResolveAssemblyReference.cache
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\obj\Debug\IassetTechnicalTest.BLL.dll
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.BLL\obj\Debug\IassetTechnicalTest.BLL.pdb

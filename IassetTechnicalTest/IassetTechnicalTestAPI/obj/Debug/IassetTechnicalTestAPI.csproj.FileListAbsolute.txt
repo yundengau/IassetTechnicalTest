@@ -180,3 +180,4 @@ E:\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTestAPI\bin\IassetTech
 E:\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTestAPI\obj\Debug\IassetTechnicalTestAPI.csprojResolveAssemblyReference.cache
 E:\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTestAPI\obj\Debug\IassetTechnicalTestAPI.dll
 E:\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTestAPI\obj\Debug\IassetTechnicalTestAPI.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTestAPI\obj\Debug\IassetTechnicalTestAPI.csprojResolveAssemblyReference.cache

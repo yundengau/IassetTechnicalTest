@@ -56,3 +56,4 @@ D:\Projects\IassetTechnicalTest\IassetTechnicalTestAPI.Tests\bin\Debug\System.We
 D:\Projects\IassetTechnicalTest\IassetTechnicalTestAPI.Tests\obj\Debug\IassetTechnicalTestAPI.Tests.csprojResolveAssemblyReference.cache
 D:\Projects\IassetTechnicalTest\IassetTechnicalTestAPI.Tests\obj\Debug\IassetTechnicalTestAPI.Tests.dll
 D:\Projects\IassetTechnicalTest\IassetTechnicalTestAPI.Tests\obj\Debug\IassetTechnicalTestAPI.Tests.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTestAPI.Tests\obj\Debug\IassetTechnicalTestAPI.Tests.csprojResolveAssemblyReference.cache

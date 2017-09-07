@@ -12,3 +12,10 @@ E:\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.IBLL\bin\Debug\Ia
 E:\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.IBLL\obj\Debug\IassetTechnicalTest.IBLL.csprojResolveAssemblyReference.cache
 E:\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.IBLL\obj\Debug\IassetTechnicalTest.IBLL.dll
 E:\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.IBLL\obj\Debug\IassetTechnicalTest.IBLL.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.IBLL\bin\Debug\IassetTechnicalTest.IBLL.dll
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.IBLL\bin\Debug\IassetTechnicalTest.IBLL.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.IBLL\bin\Debug\IassetTechnicalTest.Domain.dll
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.IBLL\bin\Debug\IassetTechnicalTest.Domain.pdb
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.IBLL\obj\Debug\IassetTechnicalTest.IBLL.csprojResolveAssemblyReference.cache
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.IBLL\obj\Debug\IassetTechnicalTest.IBLL.dll
+E:\test\IassetTechnicalTest\IassetTechnicalTest\IassetTechnicalTest.IBLL\obj\Debug\IassetTechnicalTest.IBLL.pdb
